@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "typescript": "^5.2.2",
-    "ts-node-dev": "^2.0.0"
+    "ts-node-dev": "^2.0.0",
+    "@type/express":"5.0.1"
   }
 }

@@ -1,9 +1,9 @@
-import express from 'express';
+import express, {type Response, Request} from 'express';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (_req, res) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello from Railway + TypeScript!');
 });
 
